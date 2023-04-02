@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	style="
+		margin: 0;
+		padding: 0;
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+	"
+>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1"
+		/>
+
+		
+		<meta property="og:url" content="https://gradio.app/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="" />
+		<meta property="og:title" content="Data Customers" />
+		<meta
+			property="og:description"
+			content=""
+		/>
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:creator" content="@teamGradio" />
+		<meta name="twitter:title" content="Data Customers" />
+		<meta
+			name="twitter:description"
+			content=""
+		/>
+		<meta name="twitter:image" content="" />
+
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+			gtag("config", "UA-156449732-1");
+			window.__gradio_mode__ = "app";
+		</script>
+
+		<script>window.gradio_config = {"version":"3.19.1\n","mode":"interface","dev_mode":false,"components":[{"id":2,"type":"markdown","props":{"value":"\u003ch1 style=\u0027text-align: center; margin-bottom: 1rem\u0027\u003eData Customers\u003c/h1\u003e","name":"markdown","visible":true,"style":{}}},{"id":3,"type":"row","props":{"type":"row","variant":"default","visible":true,"style":{"equal_height":false}}},{"id":4,"type":"column","props":{"type":"column","variant":"panel","scale":1,"min_width":320,"visible":true,"style":{}}},{"id":1,"type":"dataframe","props":{"headers":[1,2,3],"datatype":["str","str","str"],"row_count":[1,"dynamic"],"col_count":[3,"dynamic"],"value":{"headers":[1,2,3],"data":[["","",""]]},"max_rows":20,"overflow_row_behaviour":"paginate","wrap":false,"label":"output","show_label":true,"interactive":false,"name":"dataframe","visible":true,"style":{}}},{"id":5,"type":"row","props":{"type":"row","variant":"default","visible":true,"style":{}}},{"id":6,"type":"button","props":{"value":"Clear","variant":"secondary","name":"button","visible":true,"style":{}}},{"id":7,"type":"button","props":{"value":"Generate","variant":"primary","name":"button","visible":true,"style":{}}},{"id":8,"type":"button","props":{"value":"Flag","variant":"secondary","name":"button","visible":true,"style":{}}}],"theme":"default","css":null,"title":"Data Customers","is_space":false,"enable_queue":false,"show_error":false,"show_api":true,"is_colab":false,"layout":{"id":0,"children":[{"id":2},{"id":3,"children":[{"id":4,"children":[{"id":1},{"id":5,"children":[{"id":6},{"id":7},{"id":8}]}]}]}]},"dependencies":[{"targets":[7],"trigger":"click","inputs":[],"outputs":[1],"backend_fn":true,"js":null,"queue":null,"api_name":"predict","scroll_to_output":true,"show_progress":true,"every":null,"batch":false,"max_batch_size":4,"cancels":[]},{"targets":[6],"trigger":"click","inputs":[],"outputs":[1],"backend_fn":false,"js":"() =\u003e [null]\n            ","queue":false,"api_name":null,"scroll_to_output":false,"show_progress":true,"every":null,"batch":false,"max_batch_size":4,"cancels":[]},{"targets":[8],"trigger":"click","inputs":[1],"outputs":[],"backend_fn":true,"js":null,"queue":false,"api_name":null,"scroll_to_output":false,"show_progress":true,"every":null,"batch":false,"max_batch_size":4,"cancels":[]}]};</script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.contentWindow.min.js"></script>
+		<script type="module" crossorigin src="./assets/index.3b5d9bed.js"></script>
+		
+	</head>
+
+	<body
+		style="
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			flex-grow: 1;
+		"
+	>
+		<gradio-app
+			control_page_title="true"
+			embed="false"
+			eager="true"
+			style="display: flex; flex-direction: column; flex-grow: 1"
+		>
+		</gradio-app>
+		<script>
+			const ce = document.getElementsByTagName("gradio-app");
+			if (ce[0]) {
+				ce[0].addEventListener("domchange", () => {
+					document.body.style.padding = "0";
+				});
+				document.body.style.padding = "0";
+			}
+		</script>
+	</body>
+</html>
